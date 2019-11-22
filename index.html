@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="box-wrapper Calculator">
+        <div>
+            <!-- <input type="text" id="display" name="display" value="6" class="screen"> -->
+            <p type="text" name="display" class="screen" id="demo">0</p>
+
+        </div>
+        <div class="rowOne">
+            <button id="btn-clear" class="button misButton clearButton" type="button">C</button>
+            <button id="opposite" class="button misButton oppButton" type="button">+/-</button>
+            <button id="percent" class="button misButton oppButton" type="button">%</button>
+            <button id="divide" class="button mathButtons oppButton" type="button" data-opp="&divide">÷</button>
+        </div>
+        <div class="rowTwo">
+            <button class="button grayButton number " type="submit " data-num="7">7</button>
+            <button class="button grayButton number" type="button " data-num="8">8</button>
+            <button class="button grayButton number" type="button " data-num="9">9</button>
+            <button id="multiply" class="button mathButtons oppButton" type="button " data-opp="*">x</button>
+        </div>
+        <div class="rowThree">
+            <button class="button grayButton number" type="button " data-num="4">4</button>
+            <button class="button grayButton  number" type="button " data-num="5">5</button>
+            <button class="button grayButton number" type="button " data-num="6">6</button>
+            <button id="subtract" class="button mathButtons oppButton" type="button " data-opp="-">-</button>
+        </div>
+        <div class="rowFour">
+            <button class="button grayButton number" type="button " data-num="1">1</button>
+            <button class="button grayButton number" type="button " data-num="2">2</button>
+            <button class="button grayButton number" type="button " data-num="3">3</button>
+            <button id="plus" class="button mathButtons oppButton" type="button " data-opp="+">+</button>
+        </div>
+        <div class="rowFive">
+            <button class="button grayButton misButton zeroButton number" type="button " data-num="0">0</button>
+            <button id="decimal" class="button grayButton misButton number" type="button " data-num=".">.</button>
+            <button id="equal" class="button mathButtons equalButton" type="button " data-result="=">=</button>
+        </div>
+    </div>
+
+    <!-- <p id="demo"></p> -->
+    <script src="js/app.js "></script>
+</body>
+
+</html>
